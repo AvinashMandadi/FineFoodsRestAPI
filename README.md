@@ -54,6 +54,7 @@ Example url is http://127.0.0.1:8000/finefoods/?review=&orderby=&total=&producti
 
 ## review:
 If we want particular review data.
+
 **Example: review=5.0**
 ## orderby:
 I am taking asc and desc  orders.
@@ -61,5 +62,7 @@ I am taking asc and desc  orders.
 asc order is for low review to highest review.
 
 desc order is for highest rate to lowest rate.
-	**Example: orderby=desc**
-	**Example: orderby=asc**
+
+**Example: orderby=desc**
+
+**Example: orderby=asc**
