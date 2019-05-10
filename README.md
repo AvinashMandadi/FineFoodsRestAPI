@@ -41,7 +41,7 @@ python manage.py runserver
   
  The development server at http://127.0.0.1:8000/
 
-My API Url is  http://127.0.0.1:8000/finefoods/
+**My API Url is  http://127.0.0.1:8000/finefoods/**
  
 I took 30 documents to work with API.
 
@@ -53,3 +53,13 @@ On this API we can apply following filters:
 Example url is http://127.0.0.1:8000/finefoods/?review=&orderby=&total=&productid=&userid
 
 ## review:
+If we want particular review data.
+**Example: review=5.0**
+## orderby:
+I am taking asc and desc  orders.
+
+asc order is for low review to highest review.
+
+desc order is for highest rate to lowest rate.
+	**Example: orderby=desc**
+	**Example: orderby=asc**
