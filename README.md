@@ -16,3 +16,11 @@ pip install djangorestframework
 django-admin startproject FineFoods
 
 python manage.py startapp MyApi
+# models.py
+In modles I am taking productId, userId, profileName, helpfulness, review, review_time, review_summary and review_text based on model.Fields()
+
+If we do any changes in model we should do model makemigratiuons and migrate.
+
+python manage.py makemigrations
+
+python manage.py migrate
