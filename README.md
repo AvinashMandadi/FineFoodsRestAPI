@@ -7,5 +7,6 @@ Python==2.7.10
 
 # Installation
 Created an virtual environment using virtualenv module and then,
+
 pip install Django
 pip install djangorestframework
