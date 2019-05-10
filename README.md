@@ -74,4 +74,18 @@ Here we can apply both total and orderby filter.
 **Example: orderby=desc&total=4**
  
 **Example: orderby=asc&total=20**
+## productid:
+By giving productid we can get particular document
+
+**Example: productid=B00813GRG4**
+## userid
+By giving userid we can get our required document.
+
+**Example: userid=A21BT40VZCCYT4**
+
+## Note:
+**I did all the above 5 combinations of filters in query. We can apply more than one filter or all the filters at a time.**
+
+# Pagination
+I am using pagination feature also by using DEFAULT_PAGINATION_CLASS and taking 10 documents per page
 
