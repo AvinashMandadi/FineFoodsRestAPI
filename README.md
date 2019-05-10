@@ -66,3 +66,12 @@ desc order is for highest rate to lowest rate.
 **Example: orderby=desc**
 
 **Example: orderby=asc**
+## total:
+To return number of doucuments you want.
+
+Here we can apply both total and orderby filter.
+
+**Example: orderby=desc&total=4**
+ 
+**Example: orderby=asc&total=20**
+
