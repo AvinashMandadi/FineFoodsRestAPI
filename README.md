@@ -39,4 +39,17 @@ http://127.0.0.1:8000/finefoods/10/; Here 10 is PK
 # Running Commands
 python manage.py runserver
   
-  The development server at http://127.0.0.1:8000/
+ The development server at http://127.0.0.1:8000/
+
+My API Url is  http://127.0.0.1:8000/finefoods/
+ 
+I took 30 documents to work with API.
+
+# Query Filters
+review, orderby, total, productid, userid
+
+On this API we can apply following filters:
+
+Example url is http://127.0.0.1:8000/finefoods/?review=&orderby=&total=&productid=&userid
+
+## review:
