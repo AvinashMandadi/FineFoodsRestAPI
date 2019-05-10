@@ -16,6 +16,13 @@ pip install djangorestframework
 django-admin startproject FineFoods
 
 python manage.py startapp MyApi
+# settings.py in Project folder
+Here we have to add rest_framework module and our application name in INSTALLED_APPS list.
+# urls.py
+This file is used to make API urls by importing views from views.py file. We have an urls.py in project folder also which is used for admin connection and app urls connection.
+# admin.py
+Here we have to register our model by importing from models.py
+**Example: admin.site.register(FineFoods)**
 # models.py
 In modles I am taking productId, userId, profileName, helpfulness, review, review_time, review_summary and review_text based on model.Fields()
 
@@ -87,5 +94,5 @@ By giving userid we can get our required document.
 **I did all the above 5 combinations of filters in query. We can apply more than one filter or all the filters at a time.**
 
 # Pagination
-I am using pagination feature also by using DEFAULT_PAGINATION_CLASS and taking 10 documents per page
+I am using pagination feature also in settings.py file by using DEFAULT_PAGINATION_CLASS and taking 10 documents per page
 
