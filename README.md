@@ -28,3 +28,15 @@ python manage.py migrate
 Serializers are used to return json data from our models.
 
 Here we have to give the fileds to return in API like fields = ['pk', 'productId', 'userId', 'profileName', 'helpfulness', 'review', 'review_time', 'review_summary', 'review_text']
+# views.py
+My API can allow GET, PUT, PATCH, DELETE operations.
+
+To perform these opeartions Iam using generics.RetrieveUpdateDestroyAPIView, generics.ListAPIView and mixins.CreateModelMixin mogules.
+
+When we posting one documnet will get one unique id for every document which is nothing but primary key. By using this PK we can retrieve the documnet also.
+
+http://127.0.0.1:8000/finefoods/10/; Here 10 is PK
+# Running Commands
+python manage.py runserver
+  
+  The development server at http://127.0.0.1:8000/
